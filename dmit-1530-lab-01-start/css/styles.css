@@ -9,6 +9,84 @@
     body copy: 'Open Sans', sans-serif;
 */
 
+:root {
+    --night: #182222;
+    --dark-slate-gray: #405B5B;
+    --french-gray: #e2dfe7;
+  }
+
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--french-gray);
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+button {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+    margin: 4rem auto;
+    padding: 0 1rem;
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: var(--dark-slate-gray);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 2rem;
+    color: var(--dark-slate-gray);
+    border: 3px solid var(--dark-slate-gray);
+    padding: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.image-container {
+    display: flex;
+    gap: 0.5rem;
+    margin: 4rem 0;
+}
+
+.image-container img {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--night);
+    padding: 3rem 1rem;
+    color: var(--dark-slate-gray);
+}
+
+footer h5 {
+    font-size: 20px;
+}
+
+footer p {
+    margin: 1rem 0;
 }
